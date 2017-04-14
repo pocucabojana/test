@@ -20,8 +20,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 /**
  *
- * @author Filip
+ * @author Bojana
  */
+
+// Ovo je kontroler klasa
 @Controller
 public class MainController {
     
