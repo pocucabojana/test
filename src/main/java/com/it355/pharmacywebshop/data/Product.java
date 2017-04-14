@@ -7,7 +7,7 @@ package com.it355.pharmacywebshop.data;
 
 /**
  *
- * @author Filip
+ * @author Bojana
  */
 public class Product {
     private String productName;
