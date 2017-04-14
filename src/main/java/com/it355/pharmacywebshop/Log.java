@@ -24,6 +24,7 @@ public class Log {
     @Before("execution(* com.it355.pharmacywebshop.MainController.*(..))")
     public void logBefore(JoinPoint point){
         log.info(point.getSignature().getName() + "page tek treba da se pokrene");
+        //log.info(point.getSignature().getName() + "page tek treba da se pokrene");
     }
     
     @After("execution(* com.it355.pharmacywebshop.MainController.*(..))")
